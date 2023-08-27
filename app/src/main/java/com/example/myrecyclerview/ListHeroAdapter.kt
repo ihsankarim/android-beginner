@@ -6,15 +6,16 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import android.widget.TextView
 import android.widget.*
+import com.bumptech.glide.Glide
 
 
 class ListHeroAdapter(private val listHero: ArrayList<Hero>) :
     RecyclerView.Adapter<ListHeroAdapter.ListViewHolder>() {
     private lateinit var onItemClickCallback: OnItemClickCallback
 
-//    fun setOnItemClickCallback(onItemClickCallback: OnItemClickCallback){
-//        this.onItemClickCallback = onItemClickCallback
-//    }
+    fun setOnItemClickCallback(onItemClickCallback: OnItemClickCallback){
+        this.onItemClickCallback = onItemClickCallback
+    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
         val view: View =
@@ -25,7 +26,10 @@ class ListHeroAdapter(private val listHero: ArrayList<Hero>) :
     override fun getItemCount(): Int = listHero.size
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
         val (name, description, photo) = listHero[position]
-        holder.imgPhoto.setImageResource(photo)
+//        holder.imgPhoto.setImageResource(photo)
+        Glide.with(holder.itemView.context)
+            .load(photo)
+            .into(holder.imgPhoto)
         holder.tvName.text = name
         holder.tvDescription.text = description
         holder.itemView.setOnClickListener{
