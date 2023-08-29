@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">My Popular Tours</string>
+    <string name="tour_name">Destinasi Wisata Populer Dunia</string>
+    <string name="description">Deskripsi</string>
+    <string name="about">About</string>
+    <string name="about_name">Muhammad Ihsan Kurnia Al-Karim</string>
+    <string name="about_email">ihsanalkarim303@gmail.com</string>
+    <string name="share">share</string>
+
+    <string-array name="data_name">
+        <item>Bali, Indonesia</item>
+        <item>Barcelona, Spanyol</item>
+        <item>Cancun, Mexico</item>
+        <item>Crete, Yunani</item>
+        <item>Dubai, Uni Emirat Arab</item>
+        <item>Istanbul, Turkey</item>
+        <item>Kairo, Mesir</item>
+        <item>London, Inggris</item>
+        <item>Marrakech, Maroko</item>
+        <item>New Delhi, india</item>
+        <item>Paris, France</item>
+        <item>Roma, Italy</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Bali, pulau eksotis yang merupakan bagian dari Indonesia, adalah surga bagi para wisatawan. Dikenal karena pantai-pantainya yang menakjubkan, kehidupan budaya yang kaya, dan pemandangan alam yang mengagumkan. Rasakan kehangatan matahari saat Anda merenung di atas pasir putih, dan jelajahi pura-pura yang megah yang menyimpan cerita rahasia puluhan generasi.</item>
+        <item>Barcelona, kota yang terletak di pantai Spanyol, adalah kombinasi yang sempurna antara sejarah dan modernitas. Nikmati keajaiban arsitektur Gaudi yang mengagumkan, jalan-jalan kuno yang dipenuhi cerita, dan makanan tapas yang melegakan lidah. Lupakan diri Anda dalam kehidupan malam yang semarak dan rasakan sentuhan pasir pantai Mediterania di antara sesi menjelajah kota yang tak pernah berhenti.</item>
+        <item>Cancun, destinasi pantai populer di Meksiko, adalah tempat yang cocok untuk bersantai dan bermain. Nikmati keindahan pasir putih dan air laut biru jernih saat Anda berjemur di bawah sinar matahari. Jelajahi misteri bawah laut saat Anda snorkeling atau menyelam, dan temukan warisan budaya yang kaya dengan kunjungan ke kuil-kuil Maya yang megah.</item>
+        <item>Crete, pulau di Yunani, adalah surga untuk para pelancong petualang. Pantai-pantainya yang eksotis dan pegunungannya yang menakjubkan menciptakan latar belakang sempurna untuk petualangan luar ruangan. Rasakan kehangatan kampung halaman Yunani dengan menjelajahi desa-desa tradisional, dan terpesona oleh kekayaan mitologi Yunani saat Anda menjelajahi reruntuhan pura-pura kuno.</item>
+        <item>Dubai, kota futuristik di Timur Tengah, adalah contoh sempurna kemewahan modern. Melihat gedung pencakar langit megah dan pusat perbelanjaan mewah hanya awal dari petualangan Anda. Nikmati perpaduan budaya Timur dan Barat dalam setiap sudut kota, dan buat kenangan tak terlupakan saat Anda menjelajahi taman tema, menikmati makanan mewah, dan merasakan pesona gurun pasir yang tak berujung.</item>
+        <item>Istanbul, kota unik di Turki, adalah jembatan antara peradaban Timur dan Barat. Dengan masjid-masjid megah yang memancarkan ketenangan dan pasar bazar yang bersemangat, Anda akan merasakan keajaiban berbeda dalam setiap sudutnya. Kunjungi istana-istana yang indah, merasakan ritual hammam tradisional, dan mengeksplorasi kekayaan sejarah yang menggabungkan budaya Byzantium dan Ottoman.</item>
+        <item>Kairo, ibukota Mesir, adalah kota dengan warisan sejarah yang tak tertandingi. Berdiri di dekat Piramida Giza yang megah, Anda akan merasa terhormat oleh warisan peradaban Mesir kuno. Rasakan getaran pasar-pasar tradisional, nikmati kuil-kuil bersejarah, dan temukan misteri di balik artefak-artefak kuno yang disimpan di museum.</item>
+        <item>London, ibukota Inggris, adalah buku sejarah hidup dengan cerita modern. Dengan keindahan ikonik seperti Menara Eiffel dan istana-istana megah, kota ini akan merengkuh Anda dalam pesona klasik dan modern. Temukan seni, musik, dan teater di setiap sudutnya, dan nikmati perpaduan antara tradisi kerajaan dan semarak kehidupan modern.</item>
+        <item>Marrakech, kota yang terletak di Maroko, adalah labirin warna-warni keajaiban budaya. Jelajahi pasar-pasar yang hidup dengan aroma rempah-rempah dan kerajinan tangan yang indah. Rasakan kesejukan taman-taman indah yang tersembunyi di tengah kota gurun, dan berinteraksi dengan penduduk setempat yang ramah dalam suasana yang berdenyut.</item>
+        <item>New Delhi, ibukota India, adalah pintu gerbang ke kekayaan budaya dan spiritual. Kunjungi kuil-kuil yang dipenuhi hikmah, jelajahi pasar-pasar yang berwarna-warni, dan nikmati kekayaan masakan India yang menggoda selera. Nikmati keindahan sejarah dan modernitas yang berpadu dalam lingkungan yang tak pernah tidur.</item>
+        <item>Paris, juga dikenal sebagai Kota Cahaya, adalah tempat yang penuh dengan romantisme, seni, dan gaya hidup elegan. Rasakan pesona Menara Eiffel yang megah, jelajahi museum-museum seni yang terkenal, dan nikmati suasana kafe yang klasik. Paris adalah tempat untuk berjalan-jalan santai di taman-taman indah, mencicipi kuliner khas Prancis, dan merayakan cinta dan kehidupan.</item>
+        <item>Roma, ibukota Italia, adalah waktu tempat arkeologi dan seni bercampur. Jelajahi keindahan Koloseum dan Forum Romawi yang membawa Anda kembali ke zaman kuno, dan nikmati suasana kota yang kaya dengan cita rasa modern. Kunjungi basilika-basilika dan museum-museum yang memancarkan spiritualitas dan keindahan seni yang tak tergoyahkan.</item>
+    </string-array>
+
+
+    <integer-array name="data_photo">
+        <item>@drawable/bali</item>
+        <item>@drawable/barcelona</item>
+        <item>@drawable/cancun</item>
+        <item>@drawable/crete</item>
+        <item>@drawable/dubai</item>
+        <item>@drawable/istanbul</item>
+        <item>@drawable/kairo</item>
+        <item>@drawable/london</item>
+        <item>@drawable/marrakech</item>
+        <item>@drawable/new_delhi</item>
+        <item>@drawable/paris</item>
+        <item>@drawable/roma</item>
+    </integer-array>
+</resources>
